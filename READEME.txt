@@ -1,0 +1,21 @@
+# Bibliothèque Daissala
+
+Plateforme de gestion et consultation de bibliothèque en ligne.
+
+## Fonctionnalités
+- Recherche et consultation de livres
+- Gestion du catalogue
+- Wishlist personnelle
+- Affichage des détails des livres
+
+## Installation
+1. Configurer la base de données dans `config/db.php`
+2. Importer le schéma : `datadabase/schema.sql`
+3. Accéder à `index.php`
+
+## Structure
+- `config/` - Configuration base de données
+- `includes/` - Header et footer réutilisables
+- `css/` - Styles de l'application
+- `js/` - Scripts frontend
+- `datadabase/` - Schéma SQL
